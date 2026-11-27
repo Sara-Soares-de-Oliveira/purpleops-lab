@@ -13,7 +13,7 @@ nmap -sn 192.168.50.0/24 -oN discovery.txt
 nmap -sT -sV -p 22 192.168.50.20 -oN ssh-service.txt
 ```
 
-A Python/Paramiko script tried a ten-entry wordlist against `ssh-lab`. It recorded UTC timestamps and attempt outcomes without passwords. All ten attempts returned authentication failures and the run ended when the wordlist was exhausted. The script and original client JSONL are not included in this publication; the server evidence is available below.
+A Python/Paramiko script tried a ten-entry wordlist against `ssh-lab`. It recorded UTC timestamps and attempt outcomes without passwords. All ten attempts returned authentication failures and the run ended when the wordlist was exhausted. The [script](../../scripts/ssh_lab_dictionary.py), [execution instructions](../../scripts/README.md) and [original client JSONL](evidence/ssh-attack-run-01.jsonl) are included alongside the server evidence below.
 
 ## Evidence
 
@@ -25,8 +25,6 @@ The Ubuntu journal was exported using the `sshd-session` identifier. Files were 
 | [Attack run 01](evidence/ssh-attack-run-01.log) | 30 | 10 | 0 |
 
 One failed attempt produces multiple entries: a PAM failure, a `Failed password` event and a connection closure. The detection counts only `Failed password` events to avoid counting the same attempt multiple times.
-
-The samples contain laboratory account names and private IP addresses. No passwords are present. The original timestamps and contents are preserved.
 
 ```text
 8eb7fe2cd09b10764dfe9144564f29ef7d96848cd8fa5b789557430c51d3b124  ssh-baseline.log
