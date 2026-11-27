@@ -24,17 +24,19 @@ All testing takes place against my own lab machines.
 
 ## Current Status
 
-**In progress — building and validating the laboratory environment.**
+**In progress — SSH authentication analysis and detection in Splunk.**
 
-Current work focuses on preparing dedicated virtual machines, configuring isolated networking, and verifying the foundations for reproducible experiments. A dedicated Kali VM has been prepared, and its IP addressing and routing configuration have been checked.
+Case 1 covers a controlled SSH dictionary attack from Kali against an Ubuntu lab server. I collected authentication logs, imported baseline and attack samples into Splunk, extracted account and source fields, and tested a rolling-window detection query.
 
-The proposed architecture is being documented. Communication between lab machines and full isolation validation remain unverified. No attack exercises have been performed or detections implemented yet.
+The attack sample contains 10 failed password attempts and no successful password authentication. A provisional threshold of five failures within 60 seconds identified the test sequence while excluding the isolated baseline failure. This is retrospective analysis of uploaded logs; remediation and retesting are not yet complete.
 
 ## Documentation
 
 | Document | Contents |
 |---|---|
 | [Kali VM setup](docs/kali-vm.md) | Configuration steps, commands, verification results, and lessons learned. |
+| [Case 1: SSH authentication analysis](docs/case%201/README.md) | Evidence, detection query, timeline, findings and limitations. |
+| [SPL basics](docs/splunk/spl-basics.md) | Beginner guide to the searches used in this case. |
 | [Proposed architecture](docs/proposed-architecture.md) | Component roles, communication flows, isolation boundaries, and design decisions. |
 
 These documents are being written incrementally and distinguish implemented configuration from proposed design.
