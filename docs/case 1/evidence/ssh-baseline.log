@@ -1,0 +1,21 @@
+2026-11-23T21:32:12+00:00 ubuntu sshd-session[2034]: Accepted password for ubuntu from 192.168.50.10 port 46666 ssh2
+2026-11-23T21:32:12+00:00 ubuntu sshd-session[2034]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-11-23T21:34:13+00:00 ubuntu sshd-session[2034]: syslogin_perform_logout: logout() returned an error
+2026-11-23T21:34:13+00:00 ubuntu sshd-session[2094]: Received disconnect from 192.168.50.10 port 46666:11: disconnected by user
+2026-11-23T21:34:13+00:00 ubuntu sshd-session[2094]: Disconnected from user ubuntu 192.168.50.10 port 46666
+2026-11-23T21:34:13+00:00 ubuntu sshd-session[2034]: pam_unix(sshd:session): session closed for user ubuntu
+2026-11-23T21:35:21+00:00 ubuntu sshd-session[2201]: Accepted password for ubuntu from 192.168.50.10 port 60054 ssh2
+2026-11-23T21:35:21+00:00 ubuntu sshd-session[2201]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-11-23T21:35:34+00:00 ubuntu sshd-session[2201]: syslogin_perform_logout: logout() returned an error
+2026-11-23T21:35:34+00:00 ubuntu sshd-session[2259]: Received disconnect from 192.168.50.10 port 60054:11: disconnected by user
+2026-11-23T21:35:34+00:00 ubuntu sshd-session[2259]: Disconnected from user ubuntu 192.168.50.10 port 60054
+2026-11-23T21:35:34+00:00 ubuntu sshd-session[2201]: pam_unix(sshd:session): session closed for user ubuntu
+2026-11-23T21:38:10+00:00 ubuntu sshd-session[2338]: Accepted password for ubuntu from 192.168.50.10 port 57086 ssh2
+2026-11-23T21:38:10+00:00 ubuntu sshd-session[2338]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-11-23T21:38:41+00:00 ubuntu sshd-session[2338]: syslogin_perform_logout: logout() returned an error
+2026-11-23T21:38:41+00:00 ubuntu sshd-session[2396]: Received disconnect from 192.168.50.10 port 57086:11: disconnected by user
+2026-11-23T21:38:41+00:00 ubuntu sshd-session[2396]: Disconnected from user ubuntu 192.168.50.10 port 57086
+2026-11-23T21:38:41+00:00 ubuntu sshd-session[2338]: pam_unix(sshd:session): session closed for user ubuntu
+2026-11-23T21:52:20+00:00 ubuntu sshd-session[2652]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ubuntu
+2026-11-23T21:52:22+00:00 ubuntu sshd-session[2652]: Failed password for ubuntu from 192.168.50.10 port 53222 ssh2
+2026-11-23T21:52:23+00:00 ubuntu sshd-session[2652]: Connection closed by authenticating user ubuntu 192.168.50.10 port 53222 [preauth]

@@ -1,0 +1,30 @@
+2026-11-26T17:38:21.529663+00:00 ubuntu sshd-session[4614]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:23.089836+00:00 ubuntu sshd-session[4614]: Failed password for ssh-lab from 192.168.50.10 port 36260 ssh2
+2026-11-26T17:38:24.728156+00:00 ubuntu sshd-session[4614]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 36260 [preauth]
+2026-11-26T17:38:25.812737+00:00 ubuntu sshd-session[4710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:27.402523+00:00 ubuntu sshd-session[4710]: Failed password for ssh-lab from 192.168.50.10 port 36264 ssh2
+2026-11-26T17:38:29.184569+00:00 ubuntu sshd-session[4710]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 36264 [preauth]
+2026-11-26T17:38:30.367583+00:00 ubuntu sshd-session[4713]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:31.641614+00:00 ubuntu sshd-session[4713]: Failed password for ssh-lab from 192.168.50.10 port 36266 ssh2
+2026-11-26T17:38:32.209216+00:00 ubuntu sshd-session[4713]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 36266 [preauth]
+2026-11-26T17:38:33.377243+00:00 ubuntu sshd-session[4716]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:35.891980+00:00 ubuntu sshd-session[4716]: Failed password for ssh-lab from 192.168.50.10 port 55024 ssh2
+2026-11-26T17:38:36.707297+00:00 ubuntu sshd-session[4716]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 55024 [preauth]
+2026-11-26T17:38:37.808382+00:00 ubuntu sshd-session[4719]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:39.836953+00:00 ubuntu sshd-session[4719]: Failed password for ssh-lab from 192.168.50.10 port 55038 ssh2
+2026-11-26T17:38:40.938854+00:00 ubuntu sshd-session[4719]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 55038 [preauth]
+2026-11-26T17:38:42.103494+00:00 ubuntu sshd-session[4722]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:44.217029+00:00 ubuntu sshd-session[4722]: Failed password for ssh-lab from 192.168.50.10 port 53144 ssh2
+2026-11-26T17:38:45.133409+00:00 ubuntu sshd-session[4722]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 53144 [preauth]
+2026-11-26T17:38:46.415344+00:00 ubuntu sshd-session[4817]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:48.994612+00:00 ubuntu sshd-session[4817]: Failed password for ssh-lab from 192.168.50.10 port 53156 ssh2
+2026-11-26T17:38:49.696470+00:00 ubuntu sshd-session[4817]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 53156 [preauth]
+2026-11-26T17:38:50.867768+00:00 ubuntu sshd-session[4820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:53.161954+00:00 ubuntu sshd-session[4820]: Failed password for ssh-lab from 192.168.50.10 port 53170 ssh2
+2026-11-26T17:38:53.993780+00:00 ubuntu sshd-session[4820]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 53170 [preauth]
+2026-11-26T17:38:55.160370+00:00 ubuntu sshd-session[4823]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:38:57.225464+00:00 ubuntu sshd-session[4823]: Failed password for ssh-lab from 192.168.50.10 port 34876 ssh2
+2026-11-26T17:38:58.291911+00:00 ubuntu sshd-session[4823]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 34876 [preauth]
+2026-11-26T17:38:59.464124+00:00 ubuntu sshd-session[4826]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10  user=ssh-lab
+2026-11-26T17:39:02.015293+00:00 ubuntu sshd-session[4826]: Failed password for ssh-lab from 192.168.50.10 port 34880 ssh2
+2026-11-26T17:39:02.623419+00:00 ubuntu sshd-session[4826]: Connection closed by authenticating user ssh-lab 192.168.50.10 port 34880 [preauth]

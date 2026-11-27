@@ -1,0 +1,22 @@
+{"timestamp": "2026-11-26T17:38:22.387094+00:00", "event": "run_started", "target": "192.168.50.20", "username": "ssh-lab", "planned_attempts": 10}
+{"timestamp": "2026-11-26T17:38:22.387141+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 1}
+{"timestamp": "2026-11-26T17:38:25.751162+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 1, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:26.751588+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 2}
+{"timestamp": "2026-11-26T17:38:30.229127+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 2, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:31.238517+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 3}
+{"timestamp": "2026-11-26T17:38:33.253015+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 3, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:34.254919+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 4}
+{"timestamp": "2026-11-26T17:38:37.741935+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 4, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:38.742244+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 5}
+{"timestamp": "2026-11-26T17:38:41.986940+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 5, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:42.989784+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 6}
+{"timestamp": "2026-11-26T17:38:46.285338+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 6, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:47.287802+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 7}
+{"timestamp": "2026-11-26T17:38:50.750090+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 7, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:51.751874+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 8}
+{"timestamp": "2026-11-26T17:38:55.045104+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 8, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:38:56.053827+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 9}
+{"timestamp": "2026-11-26T17:38:59.340062+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 9, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:39:00.348927+00:00", "event": "attempt_started", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 10}
+{"timestamp": "2026-11-26T17:39:03.757135+00:00", "event": "attempt_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempt": 10, "result": "authentication_failed", "error": "AuthenticationException"}
+{"timestamp": "2026-11-26T17:39:03.757330+00:00", "event": "run_finished", "target": "192.168.50.20", "username": "ssh-lab", "attempts_started": 10, "reason": "wordlist_exhausted"}
